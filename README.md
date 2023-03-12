@@ -10,6 +10,8 @@ You can generate a color picker and lock you liked.
 
 You can change all the seven colours.
 
+If you like a color, you can copy that when you click color code.
+
 GitHub Pages: [Github Pages](https://canesen7.github.io/color-generator/ "Github Pages")
 
 GitHub: [GitHub](https://github.com/canesen7/color-generator "GitHub")
