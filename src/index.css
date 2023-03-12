@@ -1,13 +1,118 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.per-color {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+.colour-input-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.colour-input {
+  width: 70%;
+  height: 90%;
+  border: none;
+  color: #3c3c3c;
+  font-size: 30px;
+}
+
+.colour-input:focus, .colour-input:focus{
+  outline: none;
+  border: none;
+}
+
+.colour-input:focus {
+  outline: none;
+  border: none;
+}
+
+.hashtag {
+  font-size: 30px;
+  color: #3c3c3c;
+  font-weight: bolder;
+}
+
+.colour-p {
+  font-size: 30px;
+  color: white;
+}
+
+.color-picker-menu {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1px;
+}
+
+.slider-picker-container {
+  width: 90%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input-colour {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  transition: 1s;
+}
+
+.per-color:hover {
+  cursor: pointer;
+}
+
+.settings-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.colours-settings-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-evenly;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ant-notification-notice-message {
+  font-size: 14px!important;
+}
+
+.colour-input-settings-main-div {
+  position: absolute;
+  top: 3%;
+  left: 35%;
+  width: 33%;
 }
